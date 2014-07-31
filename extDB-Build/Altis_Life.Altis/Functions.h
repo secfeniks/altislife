@@ -190,6 +190,7 @@ class Life_Client_Core
 	class Functions
 	{
 		file = "core\functions";
+		class randomRound {};
 		class calWeightDiff {};
 		class fetchCfgDetails {};
 		class handleInv {};
@@ -385,5 +386,23 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
+	};
+	class Market
+	{
+		file = "core\market";
+		
+		class openMarketView;
+		class refreshMarketView;
+		class marketShortView;
+		class marketBuy;
+		class marketSell;
+		class marketGetBuyPrice;
+		class marketGetSellPrice;
+		class marketconfiguration;
+		class marketReset;
+		class marketChange;
+		class marketGetRow;
+		class marketGetPriceRow;
+		class marketSetPriceRow;
 	};
 };
