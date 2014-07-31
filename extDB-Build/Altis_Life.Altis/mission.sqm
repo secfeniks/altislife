@@ -2053,7 +2053,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Lojinha"",life_fnc_virt_menu,""Lojinha""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 				};
 			};
 		};
@@ -2189,7 +2189,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Lojinha"",life_fnc_virt_menu,""Lojinha""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 				};
 				class Item7
 				{
@@ -2451,7 +2451,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Lojinha"",life_fnc_virt_menu,""market""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 				};
 				class Item29
 				{
@@ -2510,7 +2510,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_1";
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Lojinha"",life_fnc_virt_menu,""market""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 				};
 				class Item34
 				{
@@ -3404,7 +3404,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false; this enableSimulation false; this addAction[""Lojinha"",life_fnc_virt_menu,""market""];";
+					init="this allowDamage false; this enableSimulation false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 				};
 			};
 		};
