@@ -5200,12 +5200,69 @@
 			<Original>You have been frozen by an administrator</Original>
 			<English>You have been frozen by an administrator</English>
 			<German>To Be Changed</German>
-			<portuguese>Você foi neutralizado por um admiministrador</portuguese>
+			<Portuguese>Você foi neutralizado por um admiministrador</Portuguese>
 		</Key>
 		<Key ID="STR_NOTF_Unfrozen">
 			<Original>You have been unfrozen by an administrator</Original>
 			<English>You have been unfrozen by an administrator</English>
 			<German>Você foi desneutralizado por um administrador</German>
+			<Portuguese>Você foi desneutralizado por um administrador</Portuguese>
+		</Key>
+	</Package>
+	<Package name="Smartphone">
+		<Key ID="STR_PM_Smartphone">
+			<Original>Smartphone</Original>
+			<English>Smartphone</English>
+			<Portuguese>Smartphone</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_TITLE">
+			<Original>Smartphone Menu</Original>
+			<English>Smartphone Menu</English>
+			<Portuguese>Smartphone Menu</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
+			<Original>Playerlist</Original>
+			<English>Playerlist</English>
+			<Portuguese>Lista de jogadores</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
+			<Original>Nachrichten  | VON | WANN</Original>
+			<English>Notícia  | VON | WANN</English>
+			<Portuguese>Notícia  | VON | WANN</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
+			<Original>Nachricht zum lesen auswählen</Original>
+			<English>Selecione uma messagem para ler</English>
+			<Portuguese>Selecione uma messagem para ler</Portuguese>
+		</Key>
+		<Key ID="STR_Global_Close">
+			<Original>Close</Original>
+			<English>Close</English>
+			<Portuguese>Fechar</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_SCHREIBEN">
+			<Original>Schreiben</Original>
+			<English>Messagem</English>
+			<Portuguese>Messagem</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NOTRUF">
+			<Original>Notruf</Original>
+			<Portuguese>Chamada de emergência</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Absenden">
+			<Original>Absenden</Original>
+			<English>Enviar</English>
+			<Portuguese>Enviar</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
+			<Original>Nachricht an:</Original>
+			<English>Mensagem:</English>
+			<Portuguese>Mensagem:</Portuguese>
+		</Key>
+		<Key ID="STR_SMARTPHONE_Notruftitle">
+			<Original>NOTRUFE | Abuse führt zum BAN!</Original>
+			<English>abuso de chamadas de emergência leva ban.</English>
+			<Portuguese>abuso de chamadas de emergência leva ban.</Portuguese>
 		</Key>
 	</Package>
 </Project>

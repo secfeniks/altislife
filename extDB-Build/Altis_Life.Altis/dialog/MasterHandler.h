@@ -27,3 +27,4 @@
 #include "common_EditorWrapper.hpp"
 #include "market.hpp"
 #include "compensate.hpp"
+#include "smartphone.hpp"
