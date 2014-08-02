@@ -1,7 +1,7 @@
 /*
 	File: fn_revived.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	THANK YOU JESUS I WAS SAVED!
 */
@@ -25,12 +25,9 @@ if(life_atmcash > (call life_revive_fee)) then {
 };
 
 //Retexturing of units clothing, vanilla files only retexture the EMS unit.
-//switch(playerSide) do {
-//	case independent: {[[player,0,"textures\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;};
-//};
-//switch(playerSide) do {
-//	case independent: {player setObjectTextureGlobal [0,"images\medic_uniform.jpg"];};
-//};
+switch(playerSide) do {
+	case independent: {[[player,0,"textures\medic_uniform.jpg"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;};
+};
 
 //Bring me back to life.
 player setDir _dir;

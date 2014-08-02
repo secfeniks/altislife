@@ -62,6 +62,13 @@ class CfgSounds
 		titles[] = {};
 	};
 	
+	class Yelp
+	{
+	name = "Yelp";
+	sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
+	titles[] = {};
+	};
+	
 	class flashbang
 	{
 		name = "flashbang";
