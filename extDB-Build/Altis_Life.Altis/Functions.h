@@ -200,8 +200,7 @@ class Life_Client_Core
 	
 	class Functions
 	{
-		file = "core\functions";
-		class randomRound {};
+		file = "core\functions";		
 		class calWeightDiff {};
 		class fetchCfgDetails {};
 		class handleInv {};
@@ -239,6 +238,7 @@ class Life_Client_Core
 		class inventoryClosed {};
 		class inventoryOpened {};
 		class isUIDActive {};
+		class randomRound {};
 	};
 	
 	class Network

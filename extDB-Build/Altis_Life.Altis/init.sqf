@@ -27,6 +27,7 @@ diag_log format["Market prices updated! %1", _this select 1];
 diag_log "Server FSM executed";
 };
 
+
 StartProgress = true;
 //add this somewhere pretty
 [] execVM "scripts\fn_statusBar.sqf";

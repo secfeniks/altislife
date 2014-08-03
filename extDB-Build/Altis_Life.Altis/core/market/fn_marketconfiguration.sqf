@@ -10,9 +10,9 @@
 life_market_resources = [
 
 	//Schema: SHORTNAME, Default, Min, Max, changes in action, [Sales multiplied by 1, Purchase multiplied by -1]
-	//["gold", 1500, 450, 2300, 8, 5],
+	//["gold", 55000, 45000, 100000, 8, 5],
 	
-	["oilp", 3000, 1500, 4500, 4, 2,
+	["oilp", 4000, 2500, 5500, 4, 2,
 		[
 			["diamondc",1],
 			["iron_r",1],
@@ -24,7 +24,7 @@ life_market_resources = [
 	]
 	,
 	
-	["iron_r", 1200, 600, 1800, 4, 4,  
+	["iron_r", 1500, 1000, 2000, 4, 4,  
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -46,7 +46,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["copper_r", 1500, 750, 2250, 4, 4,
+	["copper_r", 1900, 1250, 2250, 4, 4,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -89,9 +89,10 @@ life_market_resources = [
 			["glass",1]
 		] 
 	],
-/////////////////////////
 	
-	["turtle", 3000, 1500,4500, 4, 4,  
+	///////////////////////////////////
+	
+	["turtle", 3000, 2500,8500, 4, 4,  
 		[ 
 			["marijuana",1], 
 			["cocainep",1],
@@ -99,7 +100,7 @@ life_market_resources = [
 		] 
 	],
 
-	["marijuana", 5500, 2750, 8250, 4, 4,   
+	["marijuana", 6500, 3750, 8250, 4, 4,   
 		[ 
 			["turtle",1], 
 			["cocainep",1],
@@ -152,5 +153,5 @@ if(isNil("life_market_prices")) then
 	
 	publicVariable "life_market_prices";
 	
-	systemChat "Market Prices Generated!";
+	systemChat "Preços de mercado Gerados!";
 };
